@@ -1,5 +1,5 @@
 import pytest
-from playwright.sync_api import sync_playwright, expect
+from playwright.sync_api import sync_playwright,expect
 from pytest_bdd import scenarios, given, when, then
 from pageObjects.loginPageObjects import LoginPage
 
