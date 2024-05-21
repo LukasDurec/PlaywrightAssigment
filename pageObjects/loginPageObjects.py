@@ -41,4 +41,3 @@ class LoginPage:
         self.profile_icon.click()
         expect(self.sign_out_button).to_be_visible()
         self.sign_out_button.click()
-        expect(self.email_input).to_be_visible()

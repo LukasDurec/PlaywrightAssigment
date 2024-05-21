@@ -49,3 +49,8 @@ def user_sends_email(email_page):
 @then('the email should be sent successfully')
 def email_sent_successfully(email_page):
     email_page.is_email_sent()
+
+@then("user log oud from Gmail")
+def user_log_out(login_page):
+    login_page.logout()
+    login_page.assert_url("https://www.google.com/intl/sk/gmail/about/")

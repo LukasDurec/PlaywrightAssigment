@@ -6,3 +6,4 @@ Feature: Send an email with an attachment
     And the user attaches a file
     And the user sends the email to "me"
     Then the email should be sent successfully
+    And user log oud from Gmail
